@@ -1,0 +1,89 @@
+body {
+    background-repeat: no-repeat;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+
+}
+
+
+section {
+    margin: 30px;
+    background: linear-gradient(#473cff 10%, #ff2323 100%);
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 7px auto;
+
+}
+
+#About {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+    z-index: 10px;
+    background-color: black;
+}
+
+.link {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px
+}
+
+.link:hover {
+    background-color: beige;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+#ramenwiki {
+    height: 500px;
+    width: 500px;
+}
+
+#IvanImage {
+    height: 400px;
+    width: 450px;
+}
+
+#IvanImage:hover {
+    transform: scale(1.01);
+}
+
+a {
+    text-decoration: none;
+}
+
+.menubar {
+    color: white;
+}
+
+.articlelink {
+    color: white;
+}
